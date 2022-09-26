@@ -182,6 +182,7 @@
     color: var(--second-color);
 }
 
+
 .modal-span {
     display: inline-block;
     position: relative;
@@ -278,7 +279,11 @@
 
 
 
+.modal-form~input {
+    width: 358px;
+    margin-right: 12px;
 
+}
 
 
 

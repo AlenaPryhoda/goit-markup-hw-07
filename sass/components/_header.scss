@@ -1,8 +1,6 @@
-.page-header {
+.header {
 
-    background-color: $whiteColor;
-    border-bottom: 1px solid $backgroundWhiteColor;
-    
+    border-bottom: 1px solid $backgroundSectionPrime;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -12,23 +10,18 @@
         display: flex;
         align-items: center;
     }
+    &__logo {
+        color: $secondColor;
+        padding: 24px 0;
+        margin-right: 93px;
     
-}
-
-.page-header__logo {
-
-    color: $secondColor;
-    text-decoration: none;
-    font-family: Raleway, sans-serif;
-    padding: 24px 0;
-    margin-right: 93px;
-    
-    &--next-part {
-        color: var(--accent-color);
+        &--part {
+            color: var(--accent-color);
+        }
     }
-    
 }
 
+/* site-nav" */
 .site-nav {
     display: flex;
 }
@@ -65,15 +58,16 @@
     }
 }
 
-.contact-nav {
+ /*Contacs */
 
+.header-contact {
     display: flex;
     margin-left: auto;
-    
+
     &__item:first-of-type {
         margin-right: 50px;
     }
-    &__contact-icon {
+    &__link {
         display: flex;
         align-items: center;
         padding: 32px 0;
@@ -85,9 +79,15 @@
             color: var(--accent-color);
         }
     }
-    &__phone-icon, 
-    &__email-icon {
-        fill: currentColor;
-        margin-right: 10px;
-    }
+
+}
+
+
+.email__icon, .phone__icon {
+    fill: currentColor;
+    margin-right: 10px;
+}
+.phone__icon {
+    fill: currentColor;
+    margin-right: 10px;
 }

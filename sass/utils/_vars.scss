@@ -1,7 +1,7 @@
 :root {
     --primary-text-color: #757575;
     --accent-color: #2196F3;
-    
+    --white-color:#ffffff;
     --black-color: #000000;
     --second-color: #212121;
     --background-hero-color: #2F303A;
@@ -18,7 +18,36 @@
     --duration: 250ms;
 }
 
-$whiteColor: #ffffff;
-$backgroundWhiteColor: #E5E5E5;
-$secondColor: #212121;
+/*color*/
+/* #757575 основной цвет текста*/
+/* #2196F3 акцентный синий*/
+/* #FFFFFF белый */
+/* #000000 черный в лого */
+/* #212121 вторичный цвет текста*/
+/* #2F303A бекграунд героя и футера */
+/* #E5E5E5 бекграунд белый секции pref */
+/* #F5F4FA бекграукнд секции team и кнопок портфолио */
+/* #ECECEC бекграунд секции expo */
+/* rgba(255, 255, 255, 0.6) текст в футере*/
+/* #188CE8 цвет кнопки в hover*/
+
+
 $primaryTextColor: #757575;
+$accentColor: #2196F3;
+$whiteColor: #ffffff;
+$blackColor: #000000;
+$secondColor: #212121;
+$backgroundHeroColor: #2F303A;
+$backgroundWhiteColor: #E5E5E5;
+$backgroundTeamColor: #F5F4FA;
+$backgroundSectionPrime: #ECECEC;
+$buttonHover: #188CE8;
+$socialIconColor: #AFB1B8;
+$footerLink: rgba(255, 255, 255, 0.1);
+$textFooter: rgba(255, 255, 255, 0.6);
+$duration: 250ms;
+$timingFunction: cubic-bezier(0.4, 0, 0.2, 1);
+$socialIconColor: #AFB1B8;
+
+
+

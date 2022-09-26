@@ -1,0 +1,40 @@
+.clients {
+    padding: 94px 0;
+
+    &__title {
+        
+        font-size: 36px;
+        line-height: 1.67;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    
+    &__link {
+        display: flex;
+        width: 170px;
+        height: 92px;
+        justify-content: center;
+        align-items: center;
+        outline: transparent;
+        border: 1px solid $socialIconColor;
+        border-radius: 4px;
+        color: $socialIconColor;
+        transition: color $duration $timingFunction, border-color $duration $timingFunction;
+
+        &:hover,
+        &:focus {
+            border-color: $accentColor;
+            color: $accentColor;
+        }
+    }
+
+    &__icon {
+        fill: currentColor;
+    }
+}
