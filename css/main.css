@@ -32,7 +32,7 @@
 /* rgba(255, 255, 255, 0.6) текст в футере*/
 /* #188CE8 цвет кнопки в hover*/
 body {
-  color: #212121;
+  color: #757575;
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -803,6 +803,7 @@ img {
   padding: 94px 0;
 }
 .clients__title {
+  color: #212121;
   font-size: 36px;
   line-height: 1.67;
   text-align: center;
